@@ -1,0 +1,562 @@
+/* About Us Page*/
+
+.logo {
+	float: left;
+	height: 10%;
+	width: 5%;
+	margin-left: 4px;
+	margin-bottom: 10%;
+	margin-top: 8px;
+	padding-bottom: 20px;
+}
+
+nav {
+	border-bottom: 1px solid #b1adaa;
+}
+
+
+	  body {
+	  margin: 0;
+	  padding: 0;
+	  background-image: url("bg.jpg");
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  overflow-x: hidden;
+	  image-rendering: high-quality;
+	  }
+      
+	  .blur {
+	    opacity: 0.2;
+	  }
+	  
+      #tagline {
+        height: 23px;
+        color: #e6e2e0;
+        text-align: center;
+        padding: 12px;
+        margin: 0;
+        font-family: Courier New;
+		font-size: 21px;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: Monospace;
+		font-size: 18px;
+
+      }
+      
+      li {
+        float: right;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: transparent;
+        border-bottom: 3px solid #b1adaa;
+      }
+
+      .active {
+        border-bottom: 3px solid #b1adaa;
+      }
+	  
+	  .main {
+	  margin-top: 15%;
+	  margin-bottom: 5%;
+	  text-align: left;
+	  color: #e6e2e0;
+	  padding: 30px;
+	  justify-content: left;
+	  font-size: 20px; 
+	  text-shadow: 3px 3px 5px black;
+	  }
+
+	  #temporary {
+		padding-top: 50px;
+        background-color: #4b4744;
+      }
+	  
+	  div.gallery {
+	  border: 1px solid #ccc;
+	  }
+
+	div.gallery:hover {
+	border: 1px solid #777;
+	}
+
+	div.gallery img {
+	width: 100%;
+	height: auto;
+	}
+
+	div.desc {
+	padding: 15px;
+	text-align: center;
+	color: #e6e2e0; 
+	}
+
+	* {
+	box-sizing: border-box;
+	}
+
+	.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+	}
+
+	@media only screen and (max-width: 700px) {
+	.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+	.responsive {
+    width: 100%;
+		}
+	}
+
+	.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+	
+	.gallerypad {
+	padding:6px; 
+	color: #e6e2e0;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	font-size: 18px;
+	}
+
+
+	
+	.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color: #e6e2e0;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2px;
+  border: 1px solid white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.button a {
+	text-decoration: none;
+	color: #e6e2e0;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #e6e2e0;;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+	
+/* About Us Page*/
+      .body {
+	  margin: 0;
+	  padding: 0;
+	  background-image: url("aboutbg.jpg");
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  overflow-x: hidden;
+	  image-rendering: high-quality;
+	  color:#e6e2e0;
+	  }
+	  
+	  .main1 {
+	  margin-top: 1%;
+	  margin-bottom: 2%;
+	  text-align: left;
+	  color: #e6e2e0;
+	  padding: 25px;
+	  justify-content: left;
+	  font-size: 25px; 
+	  text-shadow: 4px 4px 6px black;
+	  margin-left: 5%;
+	  margin-right: 5%;
+	  text-align: justify;
+	  }
+	  
+  /* Shop Page*/
+
+      .body1 {
+	  margin: 0;
+	  padding: 0;
+	  background-image: url("shopbg.jpg");
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  overflow-x: hidden;
+	  image-rendering: high-quality;
+	  color:#e6e2e0;
+	  }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main2 {
+  max-width: 9000px;
+  margin: 0;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 26px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 23%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #e6e2e0;
+  padding: 25px;
+  color: black;
+  text-align: justify;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+	.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color: #2d2925;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2px;
+  border: 1px solid #2d2925;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.button1 a {
+	text-decoration: none;
+	color: #2d2925;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.left1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #2d2925;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 19px;
+	margin-bottom: 5%;
+	margin-right: 10%;
+}
+
+
+
+
+
+
+  /* Learn Page*/
+  
+  .body2 {
+	  margin: 0;
+	  padding: 0;
+	  background-image: url("learnbg.jpg");
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  overflow-x: hidden;
+	  image-rendering: high-quality;
+	  color:#e6e2e0;
+	  }
+  
+  * {
+  box-sizing: border-box;
+  }
+  
+  .main3 {
+  margin-top: 0;
+  padding:0
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+}
+
+.image {
+  width: 250px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:250px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.rows {
+  margin: 2px -5px;
+}
+
+/* Add padding BETWEEN each column */
+.rows,
+.rows > .columns {
+  padding: 90px;
+}
+
+/* Create four equal columns that floats next to each other */
+.columns {
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after rows */ 
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .columns {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
+   /* Contact Page*/
+   
+   .body3 {
+	  margin: 0;
+	  padding: 0;
+	  background-image: url("contactbg.jpg");
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  overflow-x: hidden;
+	  image-rendering: high-quality;
+	  color:#e6e2e0;
+	  }
+	  
+	  .main4 {
+	  margin-top: 16%;
+	  margin-bottom: 16%;
+	  text-align: center;
+	  color: #e6e2e0;
+	  padding: 30px;
+	  justify-content: left;
+	  font-size: 20px; 
+	  text-shadow: 3px 3px 5px black;
+	  }
+	  
+    .body4 {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #e6e2e0;
+      color: #000;
+	  padding-top: 5%;
+	  padding-bottom: 5%;
+	  padding-left: 3%;
+	  padding-right: 3%;
+    }
+	
+    form {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+	
+    .row1 {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+	
+    .field {
+      flex: 1 1 0;
+      min-width: 200px;
+      display: flex;
+      flex-direction: column;
+    }
+	
+    label {
+      margin-bottom: 8px;
+      font-size: 17px;
+      font-weight: 400;
+    }
+	
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      border: 1px solid #c0c0c0;
+      padding: 8px 12px;
+      font-size: 17px;
+      font-family: inherit;
+      resize: vertical;
+    }
+	
+    textarea {
+      min-height: 120px;
+    }
+	
+    button {
+		border-radius: 4px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+	
+    p.notice {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #333;
+      text-align: center;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+	
+    @media (max-width: 600px) {
+      .rows {
+        flex-direction: column;
+      }
+      .field {
+        min-width: 100%;
+      }
+    }
+
